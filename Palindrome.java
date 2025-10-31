@@ -17,6 +17,7 @@ class Palindrome{
 	public static void main(String[] args) {
 		System.out.print("Enter Number : ");
 		int num = new Scanner(System.in).nextInt();
-		System.out.println("Your number "+num + " is " +Palindrome.isPalindrome(num));
+		System.out.println("Your number "+num + " is " + Palindrome.isPalindrome(num));
 	}
+
 }
